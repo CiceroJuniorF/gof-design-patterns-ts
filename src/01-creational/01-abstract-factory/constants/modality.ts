@@ -1,4 +1,5 @@
 export enum Modality{
     QUALIFY,
-    RACE
+    RACE,
+    TRAINING
 }

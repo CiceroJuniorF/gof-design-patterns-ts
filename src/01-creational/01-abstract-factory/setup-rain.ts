@@ -6,7 +6,7 @@ import { Setup } from "./setup";
 export abstract class SetupRain extends Setup {
 
     public configure() {
-        this.compoundType = Compound.YELLOW;
+        this.compoundType = Compound.BLUE;
         this.rearWingType = RearWing.MEDIAN;
     }
 
@@ -15,8 +15,8 @@ export abstract class SetupRain extends Setup {
 export class SetupRainRace extends SetupRain {
 
     public configure() {
-        this.compoundType = Compound.YELLOW;
-        this.rearWingType = RearWing.SMALL;
+        this.compoundType = Compound.BLUE;
+        this.rearWingType = RearWing.LONG;
     }
 
 }
@@ -24,8 +24,8 @@ export class SetupRainRace extends SetupRain {
 export class SetupRainQualify extends SetupRain {
 
     public configure() {
-        this.compoundType = Compound.RED;
-        this.rearWingType = RearWing.SMALL;
+        this.compoundType = Compound.GREEN;
+        this.rearWingType = RearWing.MEDIAN;
     }
 
 }
@@ -39,7 +39,7 @@ export class SetupRainCreator{
             case Modality.QUALIFY:
                 return new SetupRainQualify();
             default:
-                throw new Error("Modality not defined")
+                throw new TypeError("Modality is not defined")
         }            
     }
 }

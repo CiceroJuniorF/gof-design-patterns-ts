@@ -39,7 +39,7 @@ export class SetupDryCreator{
             case Modality.QUALIFY:
                 return new SetupDryQualify();
             default:
-                throw new Error("Modality not defined")
+                throw new TypeError("Modality is not defined")
         }            
     }
 }

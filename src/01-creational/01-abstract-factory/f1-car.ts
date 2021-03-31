@@ -34,7 +34,7 @@ export class F1CarCreator{
             case Weather.RAIN:
                 return new F1Car(new SetupRainFactory(), modality);
             default:
-                throw new Error("Weather not defined")
+                throw new TypeError("Weather not defined")
         }            
     }
 }
