@@ -1,11 +1,11 @@
 import { Compound } from "./constants/compound";
 import { RearWing } from "./constants/rear-wing";
-import { Setup } from "./setup";
+import { SetupRain } from "./setup-rain";
 
-export abstract class SetupDry extends Setup {
+export class SetupRainQualify extends SetupRain {
 
     public configure() {
-        this.compoundType = Compound.YELLOW;
+        this.compoundType = Compound.GREEN;
         this.rearWingType = RearWing.MEDIAN;
     }
 
