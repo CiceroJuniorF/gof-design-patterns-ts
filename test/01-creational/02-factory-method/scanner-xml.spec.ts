@@ -1,5 +1,5 @@
-import { FilePath } from "../../src/01-creational/02-factory-method/constants/file-path";
-import { ScannerCSV } from "../../src/01-creational/02-factory-method/scanner-csv";
+import { FilePath } from "../../../src/01-creational/02-factory-method/constants/file-path";
+import { ScannerCSV } from "../../../src/01-creational/02-factory-method/scanner-csv";
 
 describe("SacnnerCSV", () => {
     it(`SacnnerCSV. Is expected DataSet.content is '${FilePath.FILE_CSV}CSV'}`, () => {  

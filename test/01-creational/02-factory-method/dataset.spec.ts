@@ -1,10 +1,10 @@
-import { FilePath } from "../../src/01-creational/02-factory-method/constants/file-path";
-import { FileType } from "../../src/01-creational/02-factory-method/constants/file-type";
-import { DataSet } from "../../src/01-creational/02-factory-method/dataset";
+import { FilePath } from "../../../src/01-creational/02-factory-method/constants/file-path";
+import { FileType } from "../../../src/01-creational/02-factory-method/constants/file-type";
+import { DataSet } from "../../../src/01-creational/02-factory-method/dataset";
 
 describe("DataSet", () => {
-    it(`DataSet by CSV. Is expected DataSet.content is content test}`, () => {  
-        const content = 'content'
+    it(`DataSet by CSV. Is expected DataSet.content is content test`, () => {  
+        const content = 'test'
         expect(new DataSet(content).content).toBe(`${content}`);
     });
 

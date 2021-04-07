@@ -1,8 +1,8 @@
-import { Compound } from "../../src/01-creational/01-abstract-factory/constants/compound";
-import { Modality } from "../../src/01-creational/01-abstract-factory/constants/modality";
-import { RearWing } from "../../src/01-creational/01-abstract-factory/constants/rear-wing";
-import { Weather } from "../../src/01-creational/01-abstract-factory/constants/weather";
-import { F1CarCreator } from "../../src/01-creational/01-abstract-factory/f1-car";
+import { Compound } from "../../../src/01-creational/01-abstract-factory/constants/compound";
+import { Modality } from "../../../src/01-creational/01-abstract-factory/constants/modality";
+import { RearWing } from "../../../src/01-creational/01-abstract-factory/constants/rear-wing";
+import { Weather } from "../../../src/01-creational/01-abstract-factory/constants/weather";
+import { F1CarCreator } from "../../../src/01-creational/01-abstract-factory/f1-car";
 
 describe("F1Car", () => {
     it("F1Car in DRY for RACE. Is expected Compound.YELLOW and RearWing.MEDIAN", async () => {
