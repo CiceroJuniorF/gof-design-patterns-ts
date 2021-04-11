@@ -1,5 +1,5 @@
-import { FilePath } from "../../../src/01-creational/02-factory-method/constants/file-path";
-import { ScannerXML } from "../../../src/01-creational/02-factory-method/scanner-xml";
+import { FilePath } from "../../../src/creational/factory-method/constants/file-path";
+import { ScannerXML } from "../../../src/creational/factory-method/scanner-xml";
 
 describe("SacnnerXML", () => {
     it(`SacnnerXML. Is expected DataSet.content is '${FilePath.FILE_XML}XML'}`, () => {  

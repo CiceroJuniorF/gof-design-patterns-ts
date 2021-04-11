@@ -1,4 +1,4 @@
-import { DbConfig } from "../../../src/01-creational/03-singleton/db-config";
+import { DbConfig } from "../../../src/creational/singleton/db-config";
 
 
 describe("DbConfig", () => {
